@@ -33,6 +33,6 @@ class ParentAdapter(private val parentList: List<ParentItem>) : RecyclerView.Ada
     }
 
     class ParentViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val childRecyclerView : RecyclerView? = itemView.findViewById(R.id.parent_recycler_view)
+        val childRecyclerView : RecyclerView? = itemView.findViewById(R.id.child_recycler_view)
     }
 }
